@@ -4,18 +4,22 @@ nav {
 nav .navbar-brand {
     color: #fff;
 }
-nav .nav-link{    
+nav .nav-link{
     background-color: #000;
-    /* margin: 0px 5px 0px 5px; */
-    font-size: 14px;
+    /*margin: 0px 5px 0px 5px;
+    */font-size: 14px;
     margin-right: 7px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #fff;
     width: 110px;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .bg-home {
     /* background-image: url('assets/bg-home.jpg'); 
@@ -30,11 +34,13 @@ nav .nav-link{
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.bg-home h4{
-    padding-top: 13rem;
-}
+
 .bg-home .home-text-title{
     font-size: 36px;
 }
@@ -62,11 +68,15 @@ nav .nav-link{
     justify-content: center;
 }
 
+.bg-service span{
+    font-size: 24px;
+}
+
 .bg-cta {
     background-image: url('assets/bg-cta.jpg'); 
     background-color: rgba(0, 0, 0, 0.627); 
     background-blend-mode: overlay;
-    height: 500px;
+    height: 400px;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;;
