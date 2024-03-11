@@ -16,10 +16,6 @@ nav .nav-link{
     justify-content: center;
     text-align: center;
     color: #fff;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
 }
 .bg-home {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.715), rgba(0, 0, 0, 0.908)), url('assets/bg-home.jpg'); 
@@ -44,7 +40,7 @@ nav .nav-link{
     background-image: url('assets/bg-services.jpg'); /* The image used */
     background-color: rgba(0, 0, 0, 0.485); /* Warna gelap dengan transparansi 0.5 (50%) */
     background-blend-mode: overlay;
-    height: 500px; /* You must set a specified height */
+    
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;;
@@ -122,6 +118,9 @@ nav .nav-link{
 footer{
     background-color: #000;
 }
+.single-box{
+    float: right;
+}
 .single-box .footer-label{
     font-size: 24px;
     font-weight: 600;
@@ -161,6 +160,7 @@ footer{
 /* service */
 .service {
     background-color: #000;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -181,4 +181,43 @@ footer{
 
 .border-line{
     border: 1px solid #fff;
+}
+
+@media (max-width: 575.98px) { 
+    .bg-home .home-text-title{
+        font-size: 24px;
+    }
+    .bg-home .home-text-subtitle{
+        font-size: 16px;
+    }
+    
+    .single-box{
+        float: left;
+    }
+
+    .single-box .icon-footer i{
+        font-size: 18px;
+        color: #fff;
+    }
+    .single-box .footer-label{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .single-box .card-area ul{
+        list-style: none;
+        padding: 0;
+        color: #fff;
+        font-size: 14px;
+    }
+    .service .sub-menu{
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .service .sub-menu a{
+        font-size: 8px;
+    }
+    .service .service-text-subtitle{
+        font-size: 12px;
+        width: 75%;
+    }
 }
