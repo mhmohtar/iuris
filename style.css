@@ -22,13 +22,6 @@ nav .nav-link{
     -o-border-radius: 8px;
 }
 .bg-home {
-    /* background-image: url('assets/bg-home.jpg'); 
-    background-color: rgba(0, 0, 0, 0.712); 
-    background-blend-mode: overlay;
-    height: 500px;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.715), rgba(0, 0, 0, 0.908)), url('assets/bg-home.jpg'); 
     height: 100vh;
     background-position: center; 
@@ -164,3 +157,28 @@ footer{
 .transparent-input::placeholder {
     color: silver; /* Warna placeholder putih */
   }
+
+/* service */
+.service {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.service .sub-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 3rem;
+}
+
+.service .service-text-subtitle{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.border-line{
+    border: 1px solid #fff;
+}
