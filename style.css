@@ -293,10 +293,11 @@ footer{
     background-size: cover;
 }
 .coworking-about{
-    height: 400px;
-    background-color: #0F172A;
+    border-radius:12px;
+    height: 450px;
 }
 .coworking-about p{
+    
     font-size: 18px;
 }
 .card-coworking .box{
@@ -439,5 +440,23 @@ footer{
     .service .service-text-subtitle{
         font-size: 12px;
         width: 75%;
+    }
+    /* coworking */
+    .coworking-about{
+        height: 550px;
+    }
+    .coworking-about p{
+        font-size: 14px;
+    }
+    .card-coworking .box-2 .pricing{
+        padding: 0px 50px;
+    }
+    .card-coworking .box-2 .pricing-2{
+        padding: 50px 50px 5px 50px;
+    }
+    /* about us */
+    .aboutus .back p{
+        font-size: 14px;
+        padding: 0px 3rem;
     }
 }
