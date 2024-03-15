@@ -184,6 +184,73 @@ footer{
     margin: 0 auto;
 }
 
+.service .auxiliary-text-subtitle{
+    width: 60%;
+    font-size: 16px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.service .global-text-subtitle{
+    width: 60%;
+    font-size: 16px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.service .tech-text-subtitle{
+    width: 60%;
+    font-size: 16px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.service2 .ico-card{
+    height: 400px;
+    background-color: #0F172A;
+    border-radius: 22px;
+}
+.service .title-ico{
+    text-align: left;
+    padding-left: 1rem;
+}
+.service2 .ico-card .p-ico{
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 8px;
+}
+.service2 .title-ico{
+    color: aliceblue;
+}
+.service2 .box-ico{
+    height: 300px;
+    border-radius: 12px;
+    background-color: #0F172A;
+}
+.service2 .box-ico h4{
+    font-size: 24px;
+    padding: 1rem 1rem 0px 1rem;
+    color: aliceblue;
+    text-align: center;
+}
+.service2 .box-ico p{
+    font-size: 14px;
+    padding: 0px 1rem;
+    color: aliceblue;
+}
+.service2 .box-content .full{
+    font-size: 24px;
+    color: aliceblue;
+}
+.service2 .box-content p{
+    font-size: 14px;
+    color: aliceblue;
+}
+.service2 .box-content ul li{
+    font-size: 12px;
+    color: aliceblue;
+}
+
 .border-line{
     border: 1px solid #fff;
 }
@@ -205,6 +272,18 @@ footer{
 }
 .bg-aset{
     background-image: url('assets/bg-cars.jpg'); 
+    height: 40vh;
+    background-position: center; 
+    background-size: cover;
+}
+.bg-aset-motor{
+    background-image: url('assets/bg-motor.jpg'); 
+    height: 40vh;
+    background-position: center; 
+    background-size: cover;
+}
+.bg-aset-properties{
+    background-image: url('assets/bg-properties.png'); 
     height: 40vh;
     background-position: center; 
     background-size: cover;
@@ -241,6 +320,40 @@ footer{
 }
 .incoming .content{
     font-size: 16px;
+}
+
+.motorcycle .card{
+    height: 400px;
+    border-radius: 12px;
+}
+.motorcycle .text-content{
+    font-size: 14px;
+    color: aliceblue;
+}
+.motorcycle ul li{
+    font-size: 14px;
+    color: aliceblue;
+}
+.motorcycle .btn-detail{
+    font-size: 14px;
+    color: aliceblue;
+}
+.properties .text-content{
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 1rem;
+    
+}
+.properties .box-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.properties .card{
+    height: 300px;
+    border-radius: 12px;
 }
 
 .cars .card .card-body .cars-title{
